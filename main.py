@@ -177,8 +177,6 @@ def show_details_ESFP():
     st.markdown("<h1 style='text-align: center; color: #FFD700;'>특징 및 성향 확인하기</h1>", unsafe_allow_html=True)
 
     # 이미지 섹션
-    image_path = "file-OhNOUyNt6fAkiM3tM2nU5bT6"
-    st.image(image_path, use_column_width=True)
 
     # 텍스트와 스타일 섹션
     st.markdown(
