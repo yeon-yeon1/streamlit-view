@@ -993,7 +993,7 @@ def show_details_ISFJ():
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px;'>ISFJ</h2>
+            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px; padding-left:12px;'>ISFJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
@@ -1173,7 +1173,7 @@ def show_details_ISTJ():
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px;'>ISTJ</h2>
+            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px; padding-left: 12px;'> ISTJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
@@ -1697,22 +1697,22 @@ def show_study_ESTP() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #FFD700; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #FFD700; color: black; padding: 10px; border-radius: 5px;'>ESTP</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
                 <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                    <ul style='font-size:15px;'>ESTP들은 현실적이고 실용적인 접근을 선호하기 때문에, 이론보다는 실제 경험을 통해 배우는 것이 더 효과적입니다. 직접 실습하고 체험하면서 배우는 것이 중요합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>사례 적용: </span><br>실제 사례를 통해 문제를 해결합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>프로젝트: </span><br>프로젝트 기반 학습을 통해 실질적인 경험을 쌓습니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>현장 학습:  </span><br>현장 학습이나 견학을 통해 직접 보고 느끼며 학습합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>동적이고 활동적인 학습 환경
+                    <ul style='font-size:15px;'>ESTP들은 정적인 환경보다는 동적이고 활동적인 환경에서 더 잘 학습합니다. 움직이면서 배우는 활동적인 학습 방법이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>역할극 및 시뮬레이션: </span><br>역할극이나 시뮬레이션을 통해 학습 내용을 실생활에 적용해 봅니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>동적 학습 도구 활용: </span><br>동적 학습 도구를 활용합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>팀 활동: </span><br>팀 활동을 통해 상호작용하며 학습합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -1732,22 +1732,22 @@ def show_study_ESTJ() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px;'>ESTJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>구조화된 학습 계획
+                    <ul style='font-size:15px;'>ESTJ들은 체계적이고 계획적인 접근 방식을 선호합니다. 명확한 일정과 목표를 설정하고 이를 따르는 것이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>계획 작성: </span><br>매일 또는 매주의 학습 목표와 일정을 계획표에 작성합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>시간표 사용: </span><br>타임 테이블을 사용하여 특정 시간대에 어떤 과목이나 주제를 공부할지 명확히 정합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>정기 복습: </span><br>일정한 간격으로 배운 내용을 복습하는 시간을 계획에 포함시킵니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>논리적이고 분석적인 접근
+                    <ul style='font-size:15px;'>ESTJ들은 논리적이고 분석적인 접근을 통해 학습 내용을 깊이 이해할 수 있습니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>노트 정리: </span><br>체계적인 노트 필기를 통해 내용을 정리합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>문제 풀이: </span><br>다양한 문제를 풀어보며 문제 해결 능력을 키웁니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>토론: </span><br>학습한 내용을 토론하고 디베이트하며 논리적 사고를 강화합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -1767,22 +1767,22 @@ def show_study_ENFP() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #3CB371; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #3CB371; color: black; padding: 10px; border-radius: 5px;'>ENFP</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>창의적이고 개방적인 학습
+                    <ul style='font-size:15px;'>ENFP들은 창의적이고 개방적인 사고를 가지고 있으며, 새로운 경험을 통해 학습하는 것을 좋아합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>마인드맵: </span><br>마인드맵을 사용하여 학습 내용을 시각적으로 정리하고 연결합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>브레인스토밍: </span><br>브레인스토밍 세션을 통해 새로운 아이디어를 탐구합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>프로젝트: </span><br>프로젝트 기반 학습을 통해 창의적인 프로젝트를 수행합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>협력적 학습 환경
+                    <ul style='font-size:15px;'>ENFP들은 사람들과의 상호작용을 즐기며, 협력적인 환경에서 더 잘 학습합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>스터디 그룹: </span><br>스터디 그룹을 구성하여 정기적으로 모입니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>토론 및 발표: </span><br>학습한 내용을 그룹 내에서 발표하거나 토론합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>피드백: </span><br>서로에게 설명하고 피드백을 주고받는 시간을 가집니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -1802,22 +1802,22 @@ def show_study_ENFJ() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #3CB371; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #3CB371; color: black; padding: 10px; border-radius: 5px;'>ENFJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>구조화된 학습 환경
+                    <ul style='font-size:15px;'>ENFJ들은 명확한 일정과 목표를 설정하고 이를 따르는 체계적인 학습 방식을 선호합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>계획 작성: </span><br>학습 계획을 작성하여 계획적으로 학습합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>시간표 사용: </span><br>타임 테이블을 사용하여 특정 과목을 공부할 수 있도록 시간표를 만듭니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>정기 평가: </span><br>자신의 학습 진행 상황을 정기적으로 평가하고 수정합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>협력적 학습 환경
+                    <ul style='font-size:15px;'>ENFJ들은 협력적인 환경에서 더 잘 학습하며, 팀워크를 중시합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>스터디 그룹: </span><br>스터디 그룹을 구성하여 함께 공부합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>토론 및 발표: </span><br>학습 내용을 다른 사람들과 공유하고 토론합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>멘토링: </span><br>멘토나 선생님과 상담하여 학습의 어려운 부분을 해결합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -1837,22 +1837,22 @@ def show_study_ENTP() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #9b6cc3; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #9b6cc3; color: black; padding: 10px; border-radius: 5px;'>ENTP</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>창의적 문제 해결
+                    <ul style='font-size:15px;'>ENTP들은 창의적인 접근을 통해 문제를 해결하는 것을 즐기며, 다양한 아이디어를 탐구합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>브레인스토밍: </span><br>브레인스토밍 세션을 통해 다양한 아이디어를 탐구합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>프로젝트: </span><br>프로젝트 기반 학습을 통해 실제 문제를 해결합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>창의적 접근: </span><br>다양한 접근 방식을 시도하며 창의적인 해결책을 찾습니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>논리적이고 분석적인 접근
+                    <ul style='font-size:15px;'>ENTP들은 논리적이고 분석적인 접근을 통해 학습 내용을 깊이 이해할 수 있습니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>사례 연구: </span><br>사례 연구를 통해 다양한 상황을 분석하고 해결책을 찾습니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>노트 정리: </span><br>논리적으로 정리된 노트 필기를 통해 내용을 이해합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>토론 및 디베이트: </span><br>토론 및 디베이트를 통해 논리적 사고를 강화합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -1872,22 +1872,22 @@ def show_study_ENTJ() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #9b6cc3; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #9b6cc3; color: black; padding: 10px; border-radius: 5px;'>ENTJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>전략적 학습 계획
+                    <ul style='font-size:15px;'>ENTJ들은 장기적인 목표를 설정하고 이를 달성하기 위한 전략을 수립하는 것을 선호합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>목표 설정: </span><br>장기적인 목표를 설정하고 이를 달성하기 위한 전략을 세웁니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>단계별 계획: </span><br>큰 목표를 작은 단계로 나누어 단계별 계획을 세웁니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>성과 평가: </span><br>정기적으로 자신의 성과를 평가하고 필요시 계획을 수정합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>리더십과 협력
+                    <ul style='font-size:15px;'>ENTJ들은 리더십을 발휘하며, 협력적인 환경에서 더 잘 학습합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>팀 프로젝트: </span><br>팀 프로젝트를 구성하여 함께 프로젝트를 수행합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>토론 및 발표: </span><br>학습 내용을 다른 사람들과 공유하고 토론합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>멘토링: </span><br>멘토나 선생님과 상담하여 학습의 어려운 부분을 해결합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -1907,22 +1907,22 @@ def show_study_ISFP() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #FFD700; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #FFD700; color: black; padding: 10px; border-radius: 5px;'>ISFP</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>체험과 실습을 통한 학습
+                    <ul style='font-size:15px;'>ISFP들은 현실적이고 실용적인 접근을 선호하며, 직접 체험하고 실습하면서 배우는 것이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>현장 학습: </span><br>박물관, 전시회, 현장 견학 등 직접 체험할 수 있는 학습 기회를 활용합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>실습 및 프로젝트: </span><br>실습과 프로젝트를 통해 실제 문제를 해결합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>예술적 표현: </span><br>예술적 활동을 통해 학습 내용을 창의적으로 표현합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>감각적 학습 환경
                     <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>시청각 자료: </span><br>비디오, 오디오 등 다양한 시청각 자료를 활용하여 학습합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>실물 자료: </span><br>실물 자료나 모델을 사용하여 학습 내용을 이해합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>창의적 노트: </span><br>색깔과 그림을 사용하여 노트를 정리합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -1942,22 +1942,22 @@ def show_study_ISFJ() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px;'>ISFJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>구조화된 학습 계획
+                    <ul style='font-size:15px;'>ISFJ들은 체계적이고 계획적인 접근 방식을 선호하며, 명확한 일정과 목표를 설정하고 이를 따르는 것이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>계획 작성: </span><br>매일 또는 매주의 학습 목표와 일정을 계획표에 작성합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>시간표 사용: </span><br>타임 테이블을 사용하여 특정 시간대에 어떤 과목이나 주제를 공부할지 명확히 정합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>정기 복습: </span><br>일정한 간격으로 배운 내용을 복습하는 시간을 계획에 포함시킵니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>조용하고 집중할 수 있는 학습 환경
+                    <ul style='font-size:15px;'>ISFJ들은 조용하고 집중할 수 있는 환경에서 더 잘 학습합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>조용한 공간: </span><br>학습에 집중할 수 있는 조용한 공간을 마련합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>규칙적 휴식: </span><br>규칙적으로 휴식을 취하며 집중력을 유지합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>배경 음악: </span><br>집중을 돕는 잔잔한 음악을 배경으로 활용합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -1977,22 +1977,22 @@ def show_study_ISTP() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #FFD700; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #FFD700; color: black; padding: 10px; border-radius: 5px;'>ISTP</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
                 <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                    <ul style='font-size:15px;'>ISTP들은 현실적이고 실용적인 접근을 선호하며, 직접 체험하고 실습하면서 배우는 것이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>사례 적용: </span><br>실제 사례를 통해 문제를 해결합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>프로젝트: </span><br>프로젝트 기반 학습을 통해 실질적인 경험을 쌓습니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>현장 학습: </span><br>현장 학습이나 견학을 통해 직접 보고 느끼며 학습합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>독립적인 학습 환경
+                    <ul style='font-size:15px;'>ISTP들은 독립적으로 학습하는 것을 선호하며, 자기 주도적으로 학습하는 것이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>자기 주도 학습: </span><br>스스로 학습 목표를 설정하고 독립적으로 학습합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>문제 해결 연습: </span><br>다양한 문제를 풀어보며 문제 해결 능력을 키웁니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>자기 평가: </span><br>학습한 내용을 스스로 평가하고 부족한 부분을 보완합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -2012,22 +2012,22 @@ def show_study_ISTJ() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #87CEEB; color: black; padding: 10px; border-radius: 5px;'>ISTJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>구조화된 학습 계획
+                    <ul style='font-size:15px;'>ISTJ들은 체계적이고 계획적인 접근 방식을 선호하며, 명확한 일정과 목표를 설정하고 이를 따르는 것이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>계획 작성: </span><br>매일 또는 매주의 학습 목표와 일정을 계획표에 작성합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>시간표 사용: </span><br>타임 테이블을 사용하여 특정 시간대에 어떤 과목이나 주제를 공부할지 명확히 정합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>정기 복습: </span><br>일정한 간격으로 배운 내용을 복습하는 시간을 계획에 포함시킵니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>논리적이고 분석적인 접근
+                    <ul style='font-size:15px;'>ISTJ들은 논리적이고 분석적인 접근을 통해 학습 내용을 깊이 이해할 수 있습니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>노트 정리: </span><br>체계적인 노트 필기를 통해 내용을 정리합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>문제 풀이: </span><br>다양한 문제를 풀어보며 문제 해결 능력을 키웁니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>토론 및 디베이트: </span><br>학습한 내용을 토론하고 디베이트하며 논리적 사고를 강화합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -2047,22 +2047,22 @@ def show_study_INFP() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #3CB371; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #3CB371; color: black; padding: 10px; border-radius: 5px;'>INFP</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>창의적이고 개방적인 학습
+                    <ul style='font-size:15px;'>INFP들은 창의적이고 개방적인 사고를 가지고 있으며, 새로운 경험을 통해 학습하는 것을 좋아합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>마인드맵: </span><br>마인드맵을 사용하여 학습 내용을 시각적으로 정리하고 연결합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>브레인스토밍: </span><br>브레인스토밍 세션을 통해 새로운 아이디어를 탐구합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>프로젝트: </span><br>프로젝트 기반 학습을 통해 창의적인 프로젝트를 수행합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>감성적 학습 환경
+                    <ul style='font-size:15px;'>INFP들은 감성적이고 공감 능력이 뛰어나며, 이러한 특성을 활용한 학습이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>감정 표현: </span><br>학습 내용을 예술적 또는 창의적으로 표현합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>저널 작성: </span><br>학습한 내용을 일기나 저널로 작성하여 감정을 기록합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>스토리텔링: </span><br>학습 내용을 이야기 형식으로 구성하여 이해하고 기억합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -2082,22 +2082,22 @@ def show_study_INFJ() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #3CB371; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #3CB371; color: black; padding: 10px; border-radius: 5px;'>INFJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>구조화된 학습 계획
+                    <ul style='font-size:15px;'>INFJ들은 체계적이고 계획적인 접근 방식을 선호하며, 명확한 일정과 목표를 설정하고 이를 따르는 것이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>계획 작성: </span><br>매일 또는 매주의 학습 목표와 일정을 계획표에 작성합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>시간표 사용: </span><br>타임 테이블을 사용하여 특정 시간대에 어떤 과목이나 주제를 공부할지 명확히 정합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>정기 평가: </span><br>자신의 학습 진행 상황을 정기적으로 평가하고 수정합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>협력적 학습 환경
+                    <ul style='font-size:15px;'>INFJ들은 사람들과의 협력을 통해 학습할 때 더 큰 동기부여를 받습니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>스터디 그룹: </span><br> 스터디 그룹을 구성하여 정기적으로 모입니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>토론 및 발표: </span><br>학습한 내용을 그룹 내에서 발표하거나 토론합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>멘토링: </span><br>멘토나 선생님과 상담하여 학습의 어려운 부분을 해결합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -2117,22 +2117,22 @@ def show_study_INTP() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #9b6cc3; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #9b6cc3; color: black; padding: 10px; border-radius: 5px;'>INTP</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>창의적 문제 해결
+                    <ul style='font-size:15px;'>INTP들은 창의적인 접근을 통해 문제를 해결하는 것을 즐기며, 다양한 아이디어를 탐구합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>브레인스토밍: </span><br>브레인스토밍 세션을 통해 다양한 아이디어를 탐구합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>프로젝트: </span><br>프로젝트 기반 학습을 통해 실제 문제를 해결합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>창의적 접근: </span><br>다양한 접근 방식을 시도하며 창의적인 해결책을 찾습니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>논리적이고 분석적인 접근
+                    <ul style='font-size:15px;'>INTP들은 논리적이고 분석적인 접근을 통해 학습 내용을 깊이 이해할 수 있습니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>사례 연구: </span><br>사례 연구를 통해 다양한 상황을 분석하고 해결책을 찾습니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>노트 정리: </span><br>논리적으로 정리된 노트 필기를 통해 내용을 이해합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>토론 및 디베이트: </span><br>토론 및 디베이트를 통해 논리적 사고를 강화합니다.</li>
                     </ul>
                 </li>
             </ul>
@@ -2152,22 +2152,22 @@ def show_study_INTJ() :
     st.markdown(
         """
         <div style='text-align: center; margin-top: 20px;'>
-            <h2 style='width:100px; height:60px; background-color: #9b6cc3; color: black; padding: 10px; border-radius: 5px;'>ESFP</h2>
+            <h2 style='width:100px; height:60px; background-color: #9b6cc3; color: black; padding: 10px; border-radius: 5px;'>INTJ</h2>
         </div>
         <div style='margin-top: 30px; font-size: 18px;'>
             <ul>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>전략적 학습 계획
+                    <ul style='font-size:15px;'>INTJ들은 장기적인 목표를 설정하고 이를 달성하기 위한 전략을 수립하는 것을 선호합니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>목표 설정: </span><br>장기적인 목표를 설정하고 이를 달성하기 위한 전략을 세웁니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>단계별 계획: </span><br>큰 목표를 작은 단계로 나누어 단계별 계획을 세웁니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>성과 평가: </span><br>정기적으로 자신의 성과를 평가하고 필요시 계획을 수정합니다.</li>
                     </ul>
                 </li>
-                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>실습과 체험을 통한 학습
-                    <ul style='font-size:15px;'>
-                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
-                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'></span><br></li>
+                <li style='font-size:30px; font-weight:bold; margin-top:30px;'>독립적 학습
+                    <ul style='font-size:15px;'>INTJ들은 독립적으로 학습하는 것을 선호하며, 자기 주도적으로 학습하는 것이 효과적입니다.
+                        <li style='padding-top:30px; font-size:20px;'><span style='font-weight: bold; font-size:22px;'>자기 주도 학습: </span><br>스스로 학습 목표를 설정하고 독립적으로 학습합니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>문제 해결 연습: </span><br>다양한 문제를 풀어보며 문제 해결 능력을 키웁니다.</li>
+                        <li style='font-size:20px;'><span style='font-weight: bold; font-size:22px;'>독서와 연구: </span><br>학습한 내용을 독서와 연구를 통해 깊이 탐구합니다.</li>
                     </ul>
                 </li>
             </ul>
