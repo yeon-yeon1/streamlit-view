@@ -173,10 +173,71 @@ def show_result():
         st.session_state['page'] = 'home'
         st.experimental_rerun()
 
+def show_details_ESFP():
+    st.markdown("<h1 style='text-align: center; color: #FFD700;'>특징 및 성향 확인하기</h1>", unsafe_allow_html=True)
+
+    # 이미지 섹션
+    image_path = "file-OhNOUyNt6fAkiM3tM2nU5bT6"
+    st.image(image_path, use_column_width=True)
+
+    # 텍스트와 스타일 섹션
+    st.markdown(
+        """
+        <div style='text-align: center; margin-top: 20px;'>
+            <h2 style='display: inline-block; background-color: #FFD700; color: white; padding: 10px 20px; border-radius: 5px;'>INTJ</h2>
+            <button style='display: inline-block; margin-left: 20px; padding: 10px 20px; background-color: #FFD700; color: white; border: none; border-radius: 5px;'>공부법 확인하기</button>
+        </div>
+        <div style='margin-top: 30px; font-size: 18px;'>
+            <ul>
+                <li>사교적이고 외향적</li>
+                    <ul>
+                        <li>사람들과의 상호 작용을 즐기며, 새로운 사람을 만나고 관계를 형성하는 것을 좋아합니다.</li>
+                        <li>파티나 사회적 모임에서 에너지를 얻고, 주목받는 것을 즐깁니다.</li>
+                    <ul>
+                <li>현실적이고 실용적</li>
+                    <ul>
+                        <li>현재 순간에 집중하며, 현실적이고 실용적인 접근 방식을 선호합니다.</li>
+                        <li>구체적이고 실질적인 정보를 다루는 것을 좋아하며, 세부 사항에 주의를 기울입니다.</li>
+                    <ul>
+                <li>감정적이며 따뜻한</li>
+                    <ul>
+                        <li>다른 사람들의 감정과 필요에 민감하며, 이를 이해하고 도우려는 성향이 강합니다.</li>
+                        <li>공감 능력이 뛰어나며, 다른 사람들과의 관계에서 따뜻함과 이해를 보여줍니다.</li>
+                    <ul>
+                <li>즉흥적이고 유연한</li>
+                    <ul>
+                        <li>계획을 세우기보다는 즉흥적으로 행동하며, 변화에 유연하게 대처할 수 있습니다.</li>
+                        <li>새로운 경험과 모험을 즐기며, 단조로운 일상보다는 다양한 활동을 선호합니다.</li>
+                    <ul>
+                <li>즐거움을 추구하는 성향</li>
+                    <ul>
+                        <li>재미와 즐거움을 중시하며, 삶을 즐기고 긍정적으로 살아가려는 태도를 가집니다.</li>
+                        <li>엔터테인먼트, 예술, 스포츠 등 다양한 활동에서 즐거움을 찾습니다.</li>
+                    <ul>
+                <li>강한 대인 관계 기술</li>
+                    <ul>
+                        <li>훌륭한 대인 관계 기술을 가지고 있으며, 다른 사람들과의 상호 작용에서 능숙함을 보입니다.</li>
+                        <li>협동적이고 팀 플레이어로서의 역할을 잘 수행합니다.</li>
+                    <ul>
+                <li>리스크 테이커</li>
+                    <ul>
+                        <li>새로운 도전과 리스크를 두려워하지 않고, 이를 통해 성장하고 배우는 것을 좋아합니다.</li>
+                        <li>때로는 충동적인 결정을 내리기도 하지만, 이를 통해 다양한 경험을 쌓습니다.</li>
+                    <ul>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # 홈 버튼
+    if st.button('홈'):
+        st.session_state['page'] = 'home'
+        st.experimental_rerun()
+
 def mbti_details():
     if True:
-        veiw = [1]
-        veiw
+        show_details_ESFP()
 
 # 애플리케이션의 현재 페이지 상태 확인 및 설정
 if 'page' not in st.session_state:
